@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@theme{
+    --color-midnight-violet: #45163A;
+    --color-blackberry-cream: #511F46;
+    --color-desert-sand: #DBB69C;
+    --color-light: #f8f5f2;
+    --color-dark: #333333;
+    --color-porcelain: #fefcf9;
+    --color-cinnamon: #B97765;
+  
+--font-Geist:Geist," sans-serif";
+
+}
+
+.center-container
+{
+    @apply container mx-auto px-5 md:w-[82%] sm:w-[90%] ;
+}
+body{
+   font-family: Geist,  sans-serif;
+}
+
+.bg-hero-gradient {
+  background: #45163A;
+  background: linear-gradient(19deg, rgba(69, 22, 58, 1) 0%, rgba(81, 31, 70, 1) 39%, rgba(118, 72, 93, 1) 68%, rgba(219, 182, 156, 1) 92%);
+  }
+  
