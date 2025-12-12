@@ -2,12 +2,12 @@ import Title from "../components/Title";
 import SkillsCards from "../components/SkillsCards";
 import { GiFastArrow } from "react-icons/gi";
 import html from "../assets/html.webp";
-import css from "../assets/css.webp";
+import css from "../assets/CSS.webp";
 import tailwindCss from "../assets/tailwindCss.webp";
-import js from "../assets/js.webp";
-import react from "../assets/react.webp";
+import js from "../assets/JS.webp";
+import react from "../assets/React.webp";
 import github from "../assets/github.webp";
-import cyberSecurity from "../assets/cybersecurity.webp";
+import cyberSecurity from "../assets/CyberSecurity.webp";
 
 const CARDS = [
   {
