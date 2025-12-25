@@ -11,7 +11,7 @@ const ScrollToTopButton = ({ isActive }) => {
     return (
         <button 
             onClick={scrollToTop}
-            className={`fixed bottom-6 right-6 ${isActive ? "translate-x-0" : "translate-x-[100px]"} w-12 h-12 rounded-full bg-desert-sand text-white flex items-center justify-center shadow-lg hover:shadow-xl transition duration-300 z-40 cursor-pointer hover:scale-110`}
+            className={`fixed bottom-6 right-6 overflow-hidden ${isActive ? "translate-x-0" : "translate-x-25"} w-12 h-12 rounded-full bg-desert-sand text-white flex items-center justify-center shadow-lg hover:shadow-xl transition duration-300 z-40 cursor-pointer hover:scale-110`}
         >
          <LuArrowUpFromDot size={20}/>
         </button>
