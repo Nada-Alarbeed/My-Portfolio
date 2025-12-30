@@ -12,6 +12,12 @@ const projects = [
     link: 'https://ecobuild-rthg.onrender.com',
 
   },
+  {
+     title: 'Feane', 
+    description: 'React and Tailwind CSS', 
+    linear: 'bg-linear-to-br from-midnight-violet via-blackberry-cream/90 to-desert-sand',
+    link: 'https://feane-jjzp.onrender.com',
+  },
   { 
     title: 'Zen Digital', 
     description: 'Html, Tailwind CSS and JavaScript', 
@@ -26,6 +32,7 @@ const projects = [
     link: 'https://style-shop-4etg.onrender.com',
    
   },
+  
 ];
 
 const ProjectsSwiper = () => {
